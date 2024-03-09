@@ -1,0 +1,33 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+    {
+        "key":"ctrl+j",
+        "command":"cursorDown",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+k",
+        "command":"cursorUp",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+l",
+        "command":"cursorRight",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+h",
+        "command":"cursorLeft",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+u",
+        "command":"cursorHome",
+        "when":"editorTextFocus"
+    },
+    {
+        "key":"ctrl+o",
+        "command":"cursorEnd",
+        "when":"editorTextFocus"
+    },
+]
