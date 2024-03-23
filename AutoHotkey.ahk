@@ -25,3 +25,10 @@ Ctrl::
         IsAltTabMenu := false
     Return
 #If
+
+; Shift 2連打でAlt + ←キーになるように割り当て
+Shift::
+    If (A_PriorHotKey == A_ThisHotKey and A_TimeSincePriorHotkey < 1000){
+        Send, !{Left}
+    }
+    return
